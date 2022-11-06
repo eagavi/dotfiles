@@ -3,7 +3,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
-
 set number
 set relativenumber
 
@@ -14,7 +13,6 @@ set shiftwidth=4
 
 set termguicolors
 colorscheme base16-default-dark
-
 
 set statusline+=%1*\[%n] 
 set statusline+=%2*\ %<%F

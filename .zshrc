@@ -41,7 +41,6 @@ alias untar='tar -xf'
 alias untargz='tar -xzf'
 alias untarbz='tar -xjf'
 
-
 # just in case I need to keep my frustration family-friendly
 eval $(thefuck --alias oops)
 
