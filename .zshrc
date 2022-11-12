@@ -20,7 +20,7 @@ export LANG=en_US.UTF-8
    export EDITOR='nvim'
  fi
 
-export BAT_THEME="base16"
+export BAT_THEME="Visual Studio Dark+"
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border"
 
 # being polite to the computer
@@ -32,6 +32,7 @@ alias eh='exa -hla'
 
 alias cat='batcat'
 alias e='nvim $(fzf)'
+alias o='nvim $(eom)'
 
 alias vm=`cd ${HOME}/Quickemu`
 

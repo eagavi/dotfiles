@@ -1,6 +1,7 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'sheerun/vim-polyglot'
 	Plug 'jiangmiao/auto-pairs'
+	Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
 set number
@@ -12,7 +13,7 @@ set tabstop=4
 set shiftwidth=4
 
 set termguicolors
-colorscheme base16-default-dark
+colorscheme codedark
 
 set statusline+=%1*\[%n] 
 set statusline+=%2*\ %<%F
