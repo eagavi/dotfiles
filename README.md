@@ -17,6 +17,16 @@ The following notes are mostly for personal reference
 * I prefer to use fzf to find and open files
 
 
+vs code :
 
+    `"workbench.colorCustomizations": {
+        "[dark-plus-syntax]": {
+            "activityBar.background": "#191919",
+            "activityBar.activeBorder": "#191919",
+            "sideBar.background": "#202020",
+            "sideBarSectionHeader.background": "#191919",
+            "statusBar.background": "#202020"
+        }
+    },`
 
 
