@@ -16,6 +16,7 @@ The following notes are mostly for personal reference
 
 * I prefer to use fzf to find and open files
 
+* synapse and zeitgeist to find files
 
 vs code :
 
