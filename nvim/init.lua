@@ -16,7 +16,7 @@ set.shiftwidth = 4
 
 set.termguicolors = true
 
-vim.g.gruvbox_contrast_dark="hard"
+vim.g.everforest_background="hard"
 vim.cmd('colorscheme everforest')
 
 require'nvim-treesitter.configs'.setup {
