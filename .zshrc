@@ -32,7 +32,6 @@ alias eh='exa -hla'
 
 alias cat='batcat'
 alias e='nvim $(fzf)'
-alias o='nvim $(eom)'
 
 alias vm=`cd ${HOME}/Quickemu`
 
