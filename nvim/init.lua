@@ -4,6 +4,7 @@ local set = vim.opt
 vim.call('plug#begin', '~/.config/nvim/autoload/plugged')
 	Plug 'jiangmiao/auto-pairs'
 	Plug 'sainnhe/everforest'
+	Plug 'gruvbox-community/gruvbox'
 	Plug 'nvim-treesitter/nvim-treesitter'
 	Plug 'akinsho/toggleterm.nvim'
 vim.call('plug#end')
@@ -16,8 +17,9 @@ set.shiftwidth = 4
 
 set.termguicolors = true
 
-vim.g.everforest_background="hard"
-vim.cmd('colorscheme everforest')
+vim.g.gruvbox_contrast_dark="hard"
+--vim.g.everforest_background="hard"
+vim.cmd('colorscheme gruvbox')
 
 require'nvim-treesitter.configs'.setup {
 	highlight = {
